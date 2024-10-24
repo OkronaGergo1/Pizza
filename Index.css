@@ -69,3 +69,51 @@ li a {
     padding-right: 18%;
     margin: auto;
 }
+#kep1{
+    width: 20%;
+    float: left;
+}
+#kep2{
+    width: 20%;
+    float: right;
+}
+#kep3{
+    width: 20%;
+    float: left;
+}
+#kep4{
+    width: 20%;
+}
+#kep5{
+    width: 20%;
+    float: right;
+}
+#info{
+    background-color: rgb(15, 15, 15);
+    margin: 0%;
+    color: white;
+    padding: 8%;
+    padding-left: 18%;
+    padding-right: 18%;
+    margin: auto;
+}
+#info1{
+    float: left;
+    width: 27%;
+}
+#info2{
+    width: 37%;
+}
+#info3{
+    float: right;
+    width: 27%;
+}
+footer{
+    background-color: rgb(15, 15, 15);
+    margin: 0%;
+    color: white;
+    padding: 8%;
+    padding-left: 18%;
+    padding-right: 18%;
+    margin: auto;
+}
