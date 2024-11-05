@@ -1,73 +1,101 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza</title>
-    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="pizza.css">
 </head>
 <body>
-    <div id="Keret">
-        <div id="Fejlec">
-            <h1 id="h1_1">PIZZÉRIA</h1>
-            <ul>
-                <li>Kezdőlap /</li>
-                <li>Menü /</li>
-                <li>Rólunk /</li>
-                <li>Kapcsolat</li>
-            </ul>
-        </div>
-        <div id="Tortene">
-            <div id="bal">
-                <h1>PIADINA PIZZÉRIA</h1>
-                <h3>Történetünk</h3>
+    <div id="keret">
+        <div id="eleje">
+            <div id="logo">
+                <h1>PIZZÉRIA</h1>
             </div>
-            <div id="jobb">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis at alias cupiditate tenetur libero, dolore, quam necessitatibus ipsam aliquam asperiores eligendi in, molestiae animi temporibus totam quae est? Nihil!
-                Culpa dolores soluta sint. Cupiditate, fuga reprehenderit! Praesentium, quas impedit ullam aperiam, quibusdam voluptates quasi explicabo magnam odio maiores dolorem ipsa ipsum vitae amet voluptate beatae nam vel perferendis! Voluptas!</p>
-                <h2>Foglaljon asztalt: +36-67-632-456</h2>
+            <nav>
+                <input type="checkbox" id="menu">
+                <label for="menu" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="menu1">
+                    <li>Kezdőlap</li>
+                    <li>Menü</li>
+                    <li>Rólunk</li>
+                    <li>Kapcsolat</li>
+                </ul>
+            </nav>
+        </div>
+        <div id="tortenet">
+            <div id="tor1">
+                <h2>PIADINA PIZZÉRIA</h2>
+                <h4>Történetünk</h4>
+            </div>
+            <div id="tor2">
+                <p>Itt kezdődhet a szöveged. Kattints ide, és kezdheted is az írást. Illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia non numquam eius modi.</p>
+                <h2>FOGLALJ ASZTALT: +36-67-632-456</h2>
             </div>
         </div>
-        <div id="Menu">
-            <h1>-MENÜ-</h1>
-            <h3>Ajánlatunk</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos corporis voluptatibus omnis autem facere veniam optio iure architecto recusandae illum libero voluptas, nihil nesciunt vero nobis dolor fugit eligendi.</p>
+        <div id="menu2">
+            <h2>— MENÜ —</h2>
+            <h4>Ajánlatunk</h4>
+            <p>Itt kezdődhet a szöveged. Kattints ide, és kezdheted is az írást. Veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p><br><br>
+            <button class="button button1">Pizza</button>
+            <button class="button button2">Menü</button>
+            <button class="button button3">Italok</button>
         </div>
         <div id="spec">
-            <h1>-SPECIALITÁSAINK-</h1>
-            <h3>Az ízek tökéletes összhangja</h3>
-            <img src="Képek/fejlec-elsokep.jpg" alt="Pizza" id="kep1">
-            <img src="Képek/jobbfent.jpg" alt="Vörösboros marhapecsenye" id="kep2">
-            <img src="Képek/balalul.jpg" alt="Vegyes zöldségsaláta olivával" id="kep3">
-            <img src="Képek/alulkozepen.jpg" alt="Pizza" id="kep4">
-            <img src="Képek/jobbalul.jpg" alt="előétel" id="kep5">
-        </div>
-        <div id="info">
-            <div id="info1">
-                <h1>SZERETETTEL VÁRUNK</h1>
-            </div>
-            <div id="info2">
-                <h2>NYITVA</h2>
-                <ul>
-                    <li>Hétfő: <br>zárva</li>
-                    <li>Kedd: <br>09:30-20:00</li>
-                    <li>Szerda: <br>09:30-20:00</li>
-                    <li>Csütörtök: <br>11:00-22:00</li>
-                    <li>Péntek: <br>11:00-22:00</li>
-                    <li>Szo: <br>11:00-22:00</li>
-                    <li>Vas: <br>11:00-22:00</li>
-                </ul>
-            </div>
-            <div id="info3">
-                <h1>PROBÁLD KI FENSÉGES ÉTELEINKET</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam in sapiente! Dolor, sunt. Aut error hic deserunt reprehenderit earum.</p>
-                <h5>Foglaj asztalt itt</h5>
+            <h2>— SPECIALITÁSAINK —</h2>
+            <h4>Az ízek tökéletes összhangja</h4>
+            <div class="container">
+                <img src="képek/fejlec-elsokep.jpg" alt="Pizza" class="item large Pizza1">
+                <img src="képek/jobbfent.jpg" alt="Vörösborsos marhapecsenye" class="item large marha">
+                <img src="képek/balalul.jpg" alt="Vegyes zöldségsaláta olívával" class="item small salata">
+                <img src="képek/alulkozepen.jpg" alt="Pizza" class="item small Pizza2">
+                <img src="képek/jobbalul.jpg" alt="Előétel" class="item small eloetel">
             </div>
         </div>
+        <div class="adat">
+            <div class="bal">
+                <h2>Szeretettel Várunk</h2>
+            </div>
+            <div class="kozep">
+                <h3>Nyitva</h3>
+                <table>
+                    <tr>
+                        <td>Hétfő: <br>zárva</td>
+                    </tr>
+                    <tr>
+                        <td>Kedd: <br>09:30 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Szerda: <br>09:30 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Csütörtök: <br>11:00 - 22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Péntek: <br>11:00 - 22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Szo: <br>11:00 - 22:00</td>
+                    </tr>
+                    <tr>
+                        <td id="vas">Vas: <br>11:00 - 20:00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="jobb">
+                <h3>Próbáld ki fenséges ételeink</h3>
+                <p id="jobbp">Kattints ide, és kezdheted is az írást. Quis autem vel eum iure reprehenderit qui in ea voluptate velit.</p>
+                <p><u><strong>Foglalj asztalt itt</strong></u></p>
+            </div>
+        </div>
+        <footer>
+            <p>Piadina Pizzéria, 1013 Budapest, Clark Ádám tér 1., +36-67-632-456</p>
+            <p>Az oldalt a <u>Webnode</u> működteti</p>
+        </footer>
     </div>
-    <footer>
-        <p>Piadina Pizzeria, 1013 Budapest, Clark Ádám tér 1, +36-67-632-456</p>
-        <p>Az oldalt a Webname müködteti</p>
-    </footer>
 </body>
 </html>
