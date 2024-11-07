@@ -69,10 +69,10 @@ nav {
 #tortenet{
     background-color: rgb(39, 39, 39);
     color: white;
-    padding-left: 28%;
-    padding-right: 28%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 5%;
-    padding-bottom: 230px;
+    padding-bottom: 250px;
 }
 #tor1 h4{
     color: rgb(182, 182, 182);
@@ -83,18 +83,20 @@ nav {
 #tor1{
     float: left;
     text-align: right;
-    width: 26%;
+    width: 35%;
+    padding-right: 5%;
+    
 }
 #tor2{
     align-items: flex-start;
     float: right;
-    width: 70%;
+    width: 65%;
 }
 #menu2{
     background-color: rgb(18, 18, 18);
     color: white;
-    padding-left: 28%;
-    padding-right: 28%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 5%;
     padding-bottom: 150px;
     text-align: center;
@@ -131,8 +133,8 @@ nav {
 #spec{
     background-color: rgb(39, 39, 39);
     color: white;
-    padding-left: 28%;
-    padding-right: 28%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 5%;
     padding-bottom: 230px;
     text-align: center;
@@ -189,8 +191,8 @@ hr{
     color: white;
     display: flex;
     padding: 20px;
-    padding-left: 28%;
-    padding-right: 28%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 5%;
     padding-bottom: 230px;
 }
@@ -234,7 +236,7 @@ footer {
 }
 
   
-@media (max-width: 1500px) {
+@media (max-width: 1000px) {
     .menu1 {
       display: none;
       flex-direction: column;
