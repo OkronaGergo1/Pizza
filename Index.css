@@ -183,18 +183,15 @@ li a {
     padding-bottom: 8%;
     text-align: center;
 }
+#spec h4{
+    color: rgb(182, 182, 182);
+}
 .item {
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 18px;
     border-radius: 5px;
-}
-.parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    padding: 20px;
 }
 .parent {
     display: grid;
@@ -206,6 +203,7 @@ li a {
     height: 60vh;
     padding-right: 1vh;
     margin: 0 auto;
+    padding: 16px;
 }     
 .div1 { grid-area: 1 / 1 / 6 / 7; }
 .div2 { grid-area: 1 / 7 / 7 / 10; }
@@ -284,18 +282,18 @@ td{
 .jobb p {
     margin-bottom: 10px;
 }
-
-
 footer {
     background-color: rgb(18, 18, 18);
     color: rgb(182, 182, 182);
     text-align: center;
     font-size: 14px;
     padding-bottom: 3%;
+    border-top: rgb(182, 182, 182) 1px solid;
+    border-width: 50%;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .menu1 {
       display: none;
       flex-direction: column;
@@ -346,10 +344,20 @@ footer {
     }
     .parent {
         margin: 0;
+        padding: 0px;
+        width: 100%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-top: 3%;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+    #eleje{
+        background-size: auto;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     .menu1 {
       display: none;
       flex-direction: column;
