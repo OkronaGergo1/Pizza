@@ -353,7 +353,10 @@ footer {
         grid-row-gap: 20px;
     }
     #eleje{
-        background-size: auto;
+        background-size: 170%;
+        background-position: 50%;
+        background-position-y: 38%;
+        height: 430px;
     }
 }
 
@@ -378,5 +381,25 @@ footer {
   
     #menu:checked + .hamburger + .menu1 {
       display: flex;
+    }
+    #eleje{
+        background-size: 380%;
+        background-position: 50%;
+        background-position-y: 25%;
+        height: 430px;
+    }
+    #h1_1{
+        font-size: 30px;
+    }
+    #tor1{
+        float: none;
+        width: 100%;
+        padding-right: 5%;
+        
+    }
+    #tor2{
+        align-items: normal;
+        float: none;
+        width: 100%;
     }
 }
