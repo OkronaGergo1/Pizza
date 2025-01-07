@@ -293,7 +293,7 @@ footer {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .menu1 {
       display: none;
       flex-direction: column;
@@ -360,7 +360,7 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
     .menu1 {
       display: none;
       flex-direction: column;
@@ -444,9 +444,32 @@ footer {
         padding-bottom: 10px;
         width: 200%;
     }
-    .div1 { grid-area: 1 / 1 / 6 / 7; }
-    .div2 { grid-area: 1 / 7 / 7 / 10; }
-    .div3 { grid-area: 6 / 1 / 10 / 4; }
-    .div4 { grid-area: 6 / 4 / 10 / 7; }
-    .div5 { grid-area: 7 / 7 / 10 / 10; }
+    .jobb {
+        padding-left: 1%;
+    }
+    #spec{
+        background-color: rgb(41, 41, 41);
+        color: white;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 8%;
+        text-align: center;
+    }
+    #spec h4{
+        color: rgb(182, 182, 182);
+    }
+    .item {
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    .parent {
+        display: contents;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }     
+
 }
