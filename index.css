@@ -220,7 +220,7 @@ li a {
     font-style: italic;
     font-size: small;
 }
-.gallery__img {
+.img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -379,8 +379,14 @@ footer {
       display: flex;
     }
   
-    #menu:checked + .hamburger + .menu1 {
+    #menu:checked + .hamburger + .menu1{
       display: flex;
+    }
+    #menu:checked + .hamburger span {
+        width: 25px;
+        height: 3px;
+        background-color: transparent;
+        margin: 4px;
     }
     #eleje{
         background-size: 380%;
@@ -427,24 +433,35 @@ footer {
     .button1 {  
         border: 2px solid rgb(182, 182, 182);
         margin-bottom: 5%;
+        padding-left: 8.5%;
     }
     .button2 { 
         border: 2px solid rgb(182, 182, 182);
         margin-bottom: 5%;
+        padding-left: 8.5%;
     }
     .button3 { 
         border: 2px solid rgb(182, 182, 182);
+        padding-left: 8.5%;
     }
-
     .adat{
         display: grid;
         padding-left: 1%;
         padding-right: 1%;
         padding-top: 3%;
         padding-bottom: 10px;
-        width: 200%;
+        width: 100%;
     }
     .jobb {
+        padding-left: 1%;
+        width: 100%;
+    }
+    .bal {
+        width: 100%;
+    }
+    
+    .kozep {
+        width: 100%;
         padding-left: 1%;
     }
     #spec{
@@ -458,6 +475,9 @@ footer {
     }
     #spec h4{
         color: rgb(182, 182, 182);
+    }
+    .div5{
+        height: 300px;
     }
     .item {
         color: white;
