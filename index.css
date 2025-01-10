@@ -349,8 +349,6 @@ footer {
         padding-left: 2.5%;
         padding-right: 2.5%;
         padding-top: 3%;
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
     }
     #eleje{
         background-size: 170%;
@@ -386,7 +384,6 @@ footer {
         width: 25px;
         height: 3px;
         background-color: transparent;
-        margin: 4px;
     }
     #eleje{
         background-size: 380%;
