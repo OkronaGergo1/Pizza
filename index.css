@@ -176,25 +176,26 @@ li a {
     border: 2px solid rgb(182, 182, 182);
     text-align: center;
 }
-#spec{
-    background-color: rgb(41, 41, 41);
-    color: white;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 8%;
-    text-align: center;
+.spec{
+    background-color: rgb(18, 18, 18);
+    padding-top: 5px;
+    padding-bottom: 60px;
 }
+ 
+.gallery__item{
+    position: inherit;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: inherit;
+}
+ 
 #spec h4{
     color: rgb(182, 182, 182);
 }
-.item {
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 5px;
-}
+
 .parent {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -212,18 +213,23 @@ li a {
 .div3 { grid-area: 6 / 1 / 10 / 4; }
 .div4 { grid-area: 6 / 4 / 10 / 7; }
 .div5 { grid-area: 7 / 7 / 10 / 10; }
-.pk{
+.cim{
+    color: white;
     position: relative;
-    bottom: 30px;
+    bottom: 25px;
     font-style: italic;
     font-size: small;
+    text-align: center;
 }
-.pk1{
+.cim1{
+    color: white;
     position: relative;
-    bottom: 35px;
+    bottom: 25px;
     font-style: italic;
-    font-size: small;
+    font-size: 14px;
+    text-align: center;
 }
+
 .img{
     width: 100%;
     height: 100%;
@@ -296,7 +302,107 @@ footer {
     padding-bottom: 3%;
 }
 
+@media  screen and (max-width: 600px) {
+    .masodikszoveg{
+        padding: none;
+        margin: none;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(62, 5vw);
+        gap: 10px;
+   
+    }
+    .gallery__item--1{
+        margin-left: 2%;
+        margin-right: 2%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 10;
+    }
+    .gallery__item--2{
+        margin-left: 2%;
+        margin-right: 2%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 10;
+        grid-row-end: 22;
+    }
+    .gallery__item--3{
+        margin-left: 2%;
+        margin-right: 2%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 22;
+        grid-row-end: 32;
+    }
+    .gallery__item--4{
+        margin-left: 2%;
+        margin-right: 2%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 32;
+        grid-row-end: 52;
+    }
+    .gallery__item--5{
+        margin-left: 2%;
+        margin-right: 2%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 52;
+        grid-row-end: 62;
+    }
+}
 
+@media screen and (min-width : 600px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 5vw);
+        gap: 30px;
+   
+    }
+    .gallery__item--1 {
+        margin: 0;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .gallery__item--2 {
+        margin: 0;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 9;
+    }
+    .gallery__item--3 {
+        margin: 0;
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 5;
+        grid-row-end: 9;
+    }
+    .gallery__item--4 {
+        margin: 0;
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 7;
+    }
+    .gallery__item--5 {
+        margin: 0;
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
+}
+@media (max-width: 775px) {
+    
+}
 @media (max-width: 768px) {
     .menu1 {
       display: none;
@@ -306,7 +412,9 @@ footer {
       right: 200%;
       width: 100%;
     }
-  
+    .cim1{
+        bottom: 47px;
+    }
     .menu1 li {
       margin: 10px 0;
       text-align: center;
@@ -377,7 +485,6 @@ footer {
       right: 200%;
       width: 100%;
     }
-  
     .menu1 li {
       margin: 10px 0;
       text-align: center;
@@ -398,6 +505,9 @@ footer {
         background-position: 50%;
         background-position-y: 25%;
         height: 430px;
+    }
+    .cim1{
+        bottom: 25px;
     }
     #tortenet{
         background-color: rgb(41, 41, 41);
