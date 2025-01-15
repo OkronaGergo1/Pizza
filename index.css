@@ -229,6 +229,14 @@ li a {
     font-size: 14px;
     text-align: center;
 }
+.cim2{
+    color: white;
+    position: relative;
+    bottom: 25px;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
 
 .img{
     width: 100%;
@@ -400,8 +408,20 @@ footer {
         grid-row-end: 9;
     }
 }
-@media (max-width: 775px) {
-    
+@media (max-width: 807px) {
+    .cim1{
+        bottom: 50px;
+    }
+}
+@media  screen and (max-width: 851px) {
+    .cim2{
+        bottom: 50px;
+    }
+}
+@media  screen and (max-width: 649px) {
+    .cim2{
+        bottom: 70px;
+    }
 }
 @media (max-width: 768px) {
     .menu1 {
@@ -426,9 +446,6 @@ footer {
   
     #menu:checked + .hamburger + .menu1 {
       display: flex;
-    }
-    #menu:checked + .hamburger span{
-        background-color: transparent;
     }
     #tortenet{
         padding: 4%;
@@ -497,9 +514,6 @@ footer {
     #menu:checked + .hamburger + .menu1{
       display: flex;
     }
-    #menu:checked + .hamburger span{
-        background-color: transparent;
-    }
     #eleje{
         background-size: 380%;
         background-position: 50%;
@@ -559,6 +573,12 @@ footer {
         border: 2px solid rgb(182, 182, 182);
         padding-left: 8.5%;
     }
+    .cim1{
+        bottom: 27px;
+    } 
+    .cim2{
+        bottom: 27px;
+    } 
     .adat{
         display: grid;
         padding-left: 1%;
@@ -605,6 +625,6 @@ footer {
         display: contents;
         grid-template-columns: none;
         grid-template-rows: none;
-    }     
+    }
 
 }
